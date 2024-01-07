@@ -8,12 +8,12 @@ namespace ConsoleApp1
 {
     public class Student
     {
-        public string? Name { get; set; }
+        public string? FirstName { get; set; }
         public int Id { get; set; }
 
-        public Student(string name, int id)
+        public Student(string firstName, int id)
         {
-            Name = name;
+            FirstName = firstName;
             Id = id;
         }
     }
