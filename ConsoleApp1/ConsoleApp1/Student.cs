@@ -15,10 +15,6 @@ namespace ConsoleApp1
         {
             
         }
-        public Student(string firstName, int id)
-        {
-            FirstName = firstName;
-            Id = id;
-        }
+
     }
 }
